@@ -1,0 +1,24 @@
+.carousel-inner>.item {
+    margin-left: 23%;
+    width: 80%;
+    height: 300px;
+    vertical-align: middle;
+    margin-top: 80px;
+}
+
+.select-tile {
+    height: 100px;
+    margin: 10px;
+}
+
+.question-text{
+    width: 80%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.panel-body{
+padding: 15px;
+font-weight: 500;
+font-size: 15px;
+}
