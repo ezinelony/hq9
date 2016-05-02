@@ -9,12 +9,6 @@ let SelectActions = {
             actionType: ActionTypes.SELECT_ANSWER,
             data: data
         });
-    },
-    quesionnaireFinished: (data) => {
-        ApplicationDispatcher.handleQuestionnaireFinisedAction({
-            actionType: ActionTypes.FINISHED_QUESTIONNAIRE,
-            data: data
-        });
     }
 };
 

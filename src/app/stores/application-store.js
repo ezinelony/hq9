@@ -25,10 +25,6 @@ ApplicationStore.dispatchToken = ApplicationDispatcher.register(function(payload
             ApplicationStore.setStore(action.data);
             ApplicationStore.emitClick()
             break;
-        case ActionTypes.FINISHED_QUESTIONNAIRE:
-            ApplicationStore.setStore(action.data);
-            ApplicationStore.emitClick()
-            break;
         default:
             return true;
     }

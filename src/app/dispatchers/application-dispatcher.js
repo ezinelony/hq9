@@ -8,13 +8,6 @@ let ApplicationDispatcher =  assign(new Dispatcher(), {
             source: "CLICK_ACTION",
             action: action
         });
-    },
-
-    handleQuestionnaireFinisedAction: function(action) {
-        this.dispatch({
-            source: "FINISHED_QUESTIONNAIRE_ACTION",
-            action: action
-        });
     }
 });
 
