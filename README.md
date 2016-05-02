@@ -11,7 +11,7 @@ Simple Questionnaire with React
   
   1. Copy `index.html` and `public` folder into a web server or simply just open `index.html` in a browser
   2. Navigate to app root and Run `./node_modules/webpack-dev-server/bin/webpack-dev-server.js` 
-	  3.  Then Goto http://localost:8080 in browser to see the running app
+	  3.  Then Goto http://localhost:8080 in browser to see the running app
 
   
   
